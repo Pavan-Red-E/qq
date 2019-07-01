@@ -176,7 +176,7 @@ def checkscore(request):
 def analyticspage(request):
 	return render(request, 'Analytics.html',{})
 def rulespage(request):
-	return render(request, 'Rules.html',{})
+	return render(request, 'Rules(1).html',{})
 def contactpage(request):
 	return render(request, 'Contact.html',{})
 @csrf_exempt
